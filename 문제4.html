@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #text1 {
+            width: 50px;
+        }
+        #text2 {
+            width: 50px;
+        }
+        #E-mail {
+            width: 90px;
+        }
+        #text3 {
+            color: red;
+            font-size: 12px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form>
+        <h1>주문서</h1>
+            <fieldset>
+                <legend>고객정보</legend>
+                <ol>
+                    <label><b>* 고객명 :</b></label>
+                    <input type="name" name="name" placeholder="이름을 입력하세요"><br><br>
+                    <label><b>* ID :</b></label>
+                    <input type="ID" name="ID" placeholder="아이디를 입력하세요"><br><br>
+                    <label><b>* 주소 :</b></label>
+                    <input type="address" name="address" placeholder="주소를 입력하세요"> <button>주소찾기</button><br><br>
+
+                    <b>* 연락처 : </b>
+                    <select name="number">
+                    <option value="number">직접입력</option>
+                    <option value="number">010</option>
+                    <option value="number">070</option>
+                    <option value="number">031</option>
+                    </select>
+                    
+                    <label> - </label>
+                    <input type="text" id="text1">
+                    <label> - </label>
+                    <input type="text" id="text2">
+                    </select><br><br>
+
+                    <label><b>E-mail :</b></label>
+                    <input type="E-mail" id="E-mail">
+                    <label> @ </label>
+                    <select name="E-mail">
+                    <option value="E-mail">직접입력</option>
+                    <option value="E-mail">@naver.com</option>
+                    <option value="E-mail">@gmail.com</option>
+                    </select>
+                    <br><br><br>
+
+                    <label id="text3"><b>* 필수 입력 사항</b></label>
+                </ol>
+            </fieldset>
+        </form>
+</body>
+</html>

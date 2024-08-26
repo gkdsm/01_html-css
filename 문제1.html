@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>구매하기</legend>
+            <ol>
+                <label>옵션 <select name="options">
+                    <option value="options">1.샤인 잠옷</option>
+                    <option value="options">2.넬리 잠옷</option>
+                    <option value="options">3.솜사탕 잠옷</option>
+                    <option value="options">4.헬리 줄지 잠옷</option>
+                    <option value="options">5.파스텔 줄지 잠옷</option>
+                    <option value="options">6.모노 체크 잠옷</option>
+                    </select><br><br>
+                <label>수량 </label>
+                <input type="quantity" name="quantity" placeholder="최소100"><br><br>
+                <label>디자인 <select name="design">
+                <option value="design">핑크</option>
+                    <option value="design">블루</option>
+                    <option value="design">블랙</option>
+                    <option value="design">베이지</option>
+                    </select>
+                </ol>
+        </fieldset>
+    </form>
+
+
+    <form>
+        <fieldset>
+            <legend>결제</legend>
+            <ol>
+            <label>이름 : </label>
+            <input type="name"><br><br>
+            <label>주소 : </label>
+            <input type="address" name="address" type="text"><br><br>
+            <label>전화번호 : </label>
+            <input type="number" name="phone number" value="010-"><br><br>
+            <label> 배송시 요청사항 </label>
+                <select name="Requests">
+                <option value="Requests">택배함에 놔주세요.</option>
+                <option value="Requests">경비실에 맡겨주세요.</option>
+                <option value="Requests">배송 전에 미리 연락바랍니다.</option>
+                <option value="Requests">부재 시 핸드폰으로 연락주세요.</option>
+                <option value="Requests">부재 시 집 앞에 놔주세요.</option>
+                <option value="Requests">부재 시 경비실에 맡겨주세요.</option>
+                <option value="Requests">기타</option>
+                </select><br><br>
+                <label>기타 :
+                    <textarea cols="30" rows="2" style="resize: none;"></textarea>
+                </label>
+            </ol>
+        </fieldset>
+    </form>
+<br>
+<input type="submit" value="결제하기">
+
+</body>
+</html>
